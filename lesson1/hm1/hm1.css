@@ -1,0 +1,25 @@
+img{
+    width: 200px;
+}
+h1{
+    color: #0081ff;
+    background-color: #ea9090;
+}
+h2{
+    background-color: #56cde0;
+}
+a{
+    color: #e5e243;
+    text-decoration: none;
+}
+p{
+    background-color: #29f36c;
+    color: #0077ff;
+}
+ul{
+    background-color: #ea9090;
+
+}
+li{
+    color: blueviolet;
+}

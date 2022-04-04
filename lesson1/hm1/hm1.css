@@ -2,23 +2,22 @@ img{
     width: 200px;
 }
 h1{
-    color: #0081ff;
-    background-color: #ea9090;
-}
-h2{
-    background-color: #56cde0;
-}
-a{
-    color: #e5e243;
-    text-decoration: none;
+    color: yellow;
+    background-color: lightblue;
 }
 p{
-    background-color: #29f36c;
-    color: #0077ff;
+    color: crimson;
+    background-color: bisque;
+}
+h2{
+    background-color: cornflowerblue;
+}
+a{
+    color: #ffff48;
+    text-decoration: none;
 }
 ul{
-    background-color: #ea9090;
-
+    background-color: aquamarine;
 }
 li{
     color: blueviolet;

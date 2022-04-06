@@ -1,0 +1,47 @@
+
+.bigbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+.box{
+    width: 25%;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 350px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+
+    margin-bottom: 0;
+    font-family: Cambria, serif;
+}
+p{
+    line-height: 25px;
+    margin-top: 30px;
+    color: #878686;
+
+}
+.btn{
+    width: 80%;
+    height: 60px;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}

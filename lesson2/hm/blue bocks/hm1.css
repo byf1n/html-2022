@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.box1{
+    background-color: #67b5e3;
+    height: 250px;
+}
+.box2{
+    background-color: aquamarine;
+    height: 240px;
+    display: flex;
+}
+.minibox{
+    width: 33.3%;
+    background-color: #1c4ae0;
+    border: 2px solid white ;
+    box-sizing: border-box;
+}
+.box2{
+    height: 300px;
+    background-color: #67b5e3;
+}

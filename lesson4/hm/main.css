@@ -1,0 +1,40 @@
+.container{
+    height: 550px;
+
+}
+.a{
+    height: 150px;
+    background-color: #67b5e3;
+}
+.downer{
+    height: 400px;
+    background-color: #ffff48;
+    display: flex;
+}
+.left{
+    background-color: #35cd9f;
+    width: 70%;
+    height: 100%;
+}
+.right{
+    background-color: #9a48ff;
+    width: 30%;
+    height: 100%;
+}
+.top, .down{
+    height: 50%;
+    display: flex;
+}
+.top{
+    background-color: rosybrown;
+}
+.down{
+    background-color: aqua;
+}
+.b,.c, .d, .e, .f, .g{
+    width: 33.3%;
+    background: linear-gradient( #e66465, #9198e5);
+    border: 1px solid #000000;
+    /*box-sizing: border-box;*/
+;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px){
+    .downer{
+        flex-direction: column;
+
+    }
+    .left, .right{
+        width: 100%;
+    }
+    .a{
+        height: 15vh;
+    }
+
+
+}

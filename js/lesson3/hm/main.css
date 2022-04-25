@@ -1,0 +1,17 @@
+img{
+    width: 250px;
+}
+.product-card{
+    width: 250px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.product-title{
+    text-align: center;
+}
+.boss{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}

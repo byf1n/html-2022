@@ -1,22 +1,79 @@
 // 1. Створити пустий масив та :
 //     a. заповнити його 50 парними числами за допомоги циклу.
+let arr = [];
+// for (let i = 0; i < 50; i++) {
+//     arr[i] = i * 2;
+// }
+// console.log(arr);
 //     b. заповнити його 50 непарними числами за допомоги циклу.
+// for (let i = 0; i < 50; i++) {
+//     arr[i] = i * 2 + 1;
+// }
+// console.log(arr);
 //     c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
+// for (let i = 0; i < 20; i++) {
+//     arr[i] = Math.round(Math.random() * 100 ) + 1
+// }
+// console.log(arr);
 // d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
+for (let i = 0; i < 20; i++) {
+    arr[i] = Math.round(Math.random() * 732 - 8) + 8;
+
+}
+console.log(arr);
 // 2. Вивести за допомогою console.log кожен третій елемен
+// for (let i = 0; i < arr.length; i += 3) {
+//     console.log(arr[i]);
+// }
 // 3. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним.
+// for (let i = 0; i < arr.length; i += 3) {
+//     if (arr[i] % 2 === 0){
+//     console.log(arr[i]);
+//     }
+// }
 // 4. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
+// let newArr = [];
+// for (let i = 0; i < arr.length; i += 3) {
+//     if (arr[i] % 2 === 0) {
+//         newArr.push(arr[i])
+//     }
+// }
+// console.log(newArr);
 // 5. Вивести кожен елемент масиву, сусід справа якого є парним
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
 // 6. Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній
 // чек.
+// let prices = [100,250,50,168,120,345,188];
+// let average = 0
+// for (let price of prices) {
+//     average = average + price;
+// }
+// console.log('avg : ' + average);
 //
 // 7. Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+let randomArr = [];
+let newRandomMassive = [];
+for (let i = 0; i < 10; i++) {
+    randomArr[i] = Math.round(Math.random() * 100) + 1;
+}
+for (const element of randomArr) {
+    newRandomMassive.push(element * 5);
+}
+console.log(randomArr);
+console.log(newRandomMassive);
 // 8. Створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо елемент є числом -
 // додати його в інший масив.
+arr = [123,321,123,'sdfs','sdfsd',"sdfsd",true,false,[1,2,3]];
+let numbers = [];
+for (let element of arr) {
+    if ( typeof element === 'number'){
+        numbers.push(element)
+    }
+}
+console.log('numbers: ' + numbers);
 //
 //
-//
+
 // - Дано 2 масиви з рівною кількістю об'єктів.
 // Масиви:
 //     let usersWithId = [

@@ -155,7 +155,7 @@ function values (arr){
     let values = [];
     for (const element of arr) {
         for (let key in element) {
-            console.log(element.key); // чому пише undefined ???
+            values.push(element[key]) //
         }
     }
     return values;

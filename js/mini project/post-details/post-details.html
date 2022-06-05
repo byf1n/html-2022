@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>post-details</title>
+    <style>
+/*post-details.html - блок с информацией про пост вверху. Комментарии - по 4 в ряд.*/
+/* Все без исключения элементы, который характеризируют user,post,comment  визуализировать, так, что бы было видно их*/
+/* блоки (дать задний фон + margin. Иными словами - крайне четкая сетка)        */
+body{
+    background-color: #9198e5;
+}
+#comments{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.comment{
+    width: 21%;
+    background-color: #35cd9f;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+button{
+    border: 0;
+    border-radius: 20px;
+    width: 15%;
+    height: 40px;
+    font-size: large;
+    background-color: #0b8eef;
+}
+    </style>
+</head>
+<body>
+
+<h1>post-details</h1>
+
+<div id="main"></div>
+<div id="comments"></div>
+
+<script src="post-details.js"></script>
+
+</body>
+</html>
